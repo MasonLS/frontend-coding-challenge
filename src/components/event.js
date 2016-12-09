@@ -9,7 +9,7 @@ const Event = ({
     </div>
     <div className="panel-body">
     <p>{event.description}</p>
-    <p>{event.start_time}</p>
+    <p>{event.start_time} - {event.end_time}</p>
     </div>
   </div>
 )

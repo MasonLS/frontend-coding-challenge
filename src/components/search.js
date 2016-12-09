@@ -47,8 +47,8 @@ class Search extends Component {
 }
 
 Search.propTypes = {
-  setSearchTitle: PropTypes.func,
-  setSortBy: PropTypes.func
+  setSearchTitle: PropTypes.func.isRequired,
+  setSortBy: PropTypes.func.isRequired
 };
 
 export default Search;

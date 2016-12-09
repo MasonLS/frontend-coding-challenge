@@ -55,8 +55,6 @@ class App extends Component {
       return filterByTitle(event, this.state.searchTitle);
     });
 
-    console.log(this.state);
-
     filteredEvents = sortEventsBy(filteredEvents, this.state.sortBy);
 
     return (

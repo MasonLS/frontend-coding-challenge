@@ -14,7 +14,7 @@ class EventList extends Component {
 }
 
 EventList.propTypes = {
-  events: PropTypes.arrayOf(PropTypes.object)
+  events: PropTypes.arrayOf(PropTypes.object).isRequired
 }
 
 export default EventList;
